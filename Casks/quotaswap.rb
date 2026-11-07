@@ -1,6 +1,6 @@
 cask "quotaswap" do
-  version "0.2.1"
-  sha256 "36a817a9eb371da1584ed8696cb2581a9cb4beef9dc565042c6b7183ba9891e4"
+  version "0.3.0"
+  sha256 "5f2993b3e6c90d12758e381b95b3fe48426ee1eddc02b444a96a7006a3e939a7"
 
   url "https://github.com/hellotaotao/QuotaSwap/releases/download/v#{version}/QuotaSwap-#{version}.dmg"
   name "QuotaSwap"
@@ -22,5 +22,6 @@ cask "quotaswap" do
   zap trash: [
     "~/Library/Application Support/Claude-accounts",
     "~/Library/Application Support/QuotaSwap",
+    "~/Library/Preferences/au.taotao.quotaswap.plist",
   ]
 end
