@@ -1,6 +1,6 @@
 cask "quotaswap" do
-  version "0.3.1"
-  sha256 "6d11197a3aa9ee491da824a7f13303f4071b1e05aa149c414ba093ab0b7c536e"
+  version "0.3.2"
+  sha256 "749edfa91c4e922a3a8e54921bbd2a379e9dad6616510f0f98caceb497b6e03e"
 
   url "https://github.com/hellotaotao/QuotaSwap/releases/download/v#{version}/QuotaSwap-#{version}.dmg"
   name "QuotaSwap"
